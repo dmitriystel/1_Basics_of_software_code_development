@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
   
    Ветвления
    
-3. Даны три точки A(x1,y1), B(x2,y2) � C(x3,y3). 
+3. Даны три точки A(x1,y1), B(x2,y2), C(x3,y3). 
    Определить, будут ли они расположены на одной прямой.
 */
 public class Solution09 {
@@ -42,8 +42,8 @@ public class Solution09 {
 		double y3 = Double.parseDouble(sY3);
 		
 		if ( (x3 * (y2 - y1) - y3 * (x2 - x1) == x1 * y2 - x2 * y1) ) {
-			System.out.println("��� ����� ����� ����������� �� ����� ������");
-		} else System.out.println("��� ����� �� ����� ����������� �� ����� ������");
+			System.out.println("три точки будут расположены на одной прямой");
+		} else System.out.println("три точки не будут расположены на одной прямой");
 			
 	}
 
