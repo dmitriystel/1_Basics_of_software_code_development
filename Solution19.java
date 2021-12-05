@@ -39,8 +39,8 @@ public class Solution19 {
 		} while  (n > 0);
 		
 		
-		for(int i = 0; i <= arr1.size(); i++) {
-			for (int j = 0; j <= arr2.size(); i++) {
+		for(int i = 0; i < arr1.size(); i++) {
+			for (int j = 0; j < arr2.size(); j++) {
 				if ( arr1.get(i) == arr2.get(j) ) {
 					res.add(arr2.get(j));
 		}				
